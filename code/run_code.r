@@ -17,3 +17,18 @@ ddir <- file.path(gdir, "data")
 ls_extra <- function(){
   ls()[!ls() %in% c("ddir", "gdir")]
 }
+
+source(file.path(gdir, "code/fig1_desc.R"))
+print("Figure 1 finished")
+
+source(file.path(gdir, "code/fig2_infiltration.R"))
+print("Figure 2 finished")
+
+source(file.path(gdir, "code/fig3_source_decomposition.R"))
+print("Figure 3 finished")
+
+source(file.path(gdir, "code/fig4_income.R"))
+print("Figure 4 finished")
+
+source(file.path(gdir, "code/appendix.R"))
+print("Appendix finished")
